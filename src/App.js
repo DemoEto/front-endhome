@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Header } from './components/Header'
-import { Users } from './components/Users'
+// import { Users } from './components/Users'
 import { DisplayBoard } from './components/DisplayBoard'
-import CreateUser from './components/CreateUser'
-import { getAllUsers, createUser } from './services/UserService'
+// import CreateUser from './components/CreateUser'
+// import { getAllUsers, createUser } from './services/UserService'
 //----------------
 import { Movies } from './components/Movies'
 import CreateMovie from './components/CreateMovie'
@@ -13,9 +13,9 @@ import { getAllMovies, createMovie } from './services/MovieService'
 
 function App() {
 
-  const [user, setUser] = useState({})
-  const [users, setUsers] = useState([])
-  const [numberOfUsers, setNumberOfUsers] = useState(0)
+  // const [user, setUser] = useState({})
+  // const [users, setUsers] = useState([])
+  // const [numberOfUsers, setNumberOfUsers] = useState(0)
 
   //--------------
   const [movie, setMovie] = useState({})
@@ -23,14 +23,14 @@ function App() {
   const [numberOfMovies, setNumberOfMovies] = useState(0)
 
 //some function
-  const userCreate = (e) => {
+  // const userCreate = (e) => {
 
-      createUser(user)
-        .then(response => {
-          console.log(response);
-          setNumberOfUsers(numberOfUsers+1)
-      });
-  }
+  //     createUser(user)
+  //       .then(response => {
+  //         console.log(response);
+  //         setNumberOfUsers(numberOfUsers+1)
+  //     });
+  // }
 
   const movieCreate = (e) => {
 
