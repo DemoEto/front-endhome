@@ -9,7 +9,7 @@ import { DisplayBoard } from './components/DisplayBoard'
 //----------------
 import { Movies } from './components/Movies'
 import CreateMovie from './components/CreateMovie'
-import { getAllMovies, createMovie } from './MovieService'
+import { getAllMovies, createMovie } from './services/MovieService'
 
 function App() {
 
