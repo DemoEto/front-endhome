@@ -1,5 +1,5 @@
 
-import { env } from 'env.js';
+import { env } from '../env.js';
 import { apiConfig } from '../apiConfig.js';
 
 export async function searchMovie(search_data) {
