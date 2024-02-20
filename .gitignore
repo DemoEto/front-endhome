@@ -5,10 +5,7 @@
 /.pnp
 .pnp.js
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 98d5e809dc9de34c19cda5fcc7560d824fd15e4e
 /src/env.js
 /src/apiConfig.js
 
